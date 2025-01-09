@@ -49,3 +49,11 @@ footer {
     bottom: 0;
     width: 100%;
 }
+.dropdown-menu{
+  right: 0 !important;
+  left: unset !important;
+  width: 375px;
+}
+.dropdown-menu span{
+  cursor: pointer;
+}
