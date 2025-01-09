@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
-    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
@@ -14,7 +13,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
                     <a class="nav-link" href="index.html">Home</a>
                 </li>
@@ -25,6 +24,11 @@
                     <a class="nav-link" href="contact.html">Contact Us</a>
                 </li>
             </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                <button class="btn btn-outline-danger my-2 my-sm-0 ml-2" type="reset">Clear</button>
+            </form>
         </div>
     </nav>
 
@@ -33,6 +37,32 @@
         <p>Welcome to our website! We are dedicated to providing the best travel recommendations and insights.</p>
         <p>Our team consists of passionate travelers who have explored various destinations around the world. We aim to share our experiences and help you discover amazing places to visit.</p>
         <p>Thank you for visiting our site, and we hope you find our recommendations helpful!</p>
+
+        <h2>Our Team</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card mb-4">
+                    <div class="card-body text-center">
+                        <div class="avatar mb-3" style="width: 100px; height: 100px; background-color: #007bff; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 24px;">
+                            S
+                        </div>
+                        <h5 class="card-title">Santosh</h5>
+                        <p class="card-text">Owner</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card mb-4">
+                    <div class="card-body text-center">
+                        <div class="avatar mb-3" style="width: 100px; height: 100px; background-color: #007bff; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 24px;">
+                            S
+                        </div>
+                        <h5 class="card-title">Sachin</h5>
+                        <p class="card-text">Sr. Dev</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
